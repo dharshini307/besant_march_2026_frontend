@@ -1,0 +1,68 @@
+HTML 
+
+Frontend ---->(HTML, CSS, JS) (any frontend library - bootstrap) React (Facebbok), Angular(Google)
+
+Project 1 (a) - CRUD OPERATION 
+
+C - data create send to Database
+R - Read the data from Database
+U - Update the data
+D - Delete the Data
+
+Project 1 (b) - Fetch the data to the frontend using the backend APIs
+
+
+
+Backend ---->
+ 
+Database  ----> 
+
+Software --> Web Development 
+
+Domains 
+
+Medical Domain
+
+Edcucatinal Domain
+
+Banking Domain
+
+Insurance Domain
+
+Fintech domain 
+
+Ecommerce Domain
+
+
+
+HTML - 
+
+tags 
+
+attributes
+
+values 
+
+
+<> --> opening tags
+</> --> closing tags
+
+</ >  ---> self closing tag 
+
+Web app contents 
+
+header part 
+
+body part 
+
+footer part
+
+
+<html>
+
+</html>
+
+
+
+
+
