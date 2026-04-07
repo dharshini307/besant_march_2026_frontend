@@ -163,6 +163,51 @@ Animations -
 Javascript - It is Programmming lang, Browser Scripting lang
 
 
+Varaiables - a container that stores a value - Behaves as if it it were value it contains
+
+declaration let a; 
+assigment  a = 20;
+
+
+arthimteic operators - operands (values, varaibles, etc)
+operators(+, -, *, /, %)
+
+// 11 = x * 5;
+
+operator precedence 
+
+1) () - pranthesis
+2) exponents
+3) multiplication and division
+4) addition and subration
+
+
+let result = 1 + 2 * 3 + 4 ** 2;
+
+
+type converstion - change a the dataype of a value to another string, numberm booleans
+
+
+
+const - conatant --> varible that cant br changed
+
+
+Math Object  
+
+Math - builtin in object that provides a collections of properties and methods 
+
+
+Conditional Statement - if a condition is true, execute some code, if not, do something else.
+
+types 
+
+if Statement
+if else Statement
+else if statement 
+nested if statement or ladder statement 
+
+Checked 
+
 
 
 
