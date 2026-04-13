@@ -221,6 +221,42 @@ String methods - allow as to manipulate and work with test (Strings)
 
 string slicing - create a substring from a portion of another string
 
+Method Chaining - Calling one method after another method in continous line of code
+
+logical operators :- used to combine or manipulate boolean values (true or false)
+
+AND &&
+OR ||
+NOT !
+
+
+Strict Equality 
+
+= - assigment operator 
+== - comparison operator(compare if values are equal)
+=== - Strict equality (compare if values & datatype are equal)
+!= - inEquality operator
+!== - Strict inEquality operator
+
+
+
+Control statements or looping statements
+
+while, do while --> Tradtional loops
+
+start - where we start 
+
+end - where we need to stop the loop based on the condtions - if conditon true loop will run if condition false means loope will stop 
+
+increase or decrease the value - i++, ++i, i--, --i, i = i + 1
+
+for loop 
+
+for each loop ---> advanced loop 
+
+
+
+
 
 
 

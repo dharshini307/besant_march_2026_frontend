@@ -3,6 +3,8 @@
 // console.log('Welocme to js world');
 
 
+
+
 // window.alert("Hai hello students");
 
 
@@ -316,7 +318,7 @@ let students = 30;
 // console.log(letterGrade);
 
 //              012345  // length = 5 and 0 to n-1
-let username = "ganesh$kumar"; 
+// let username = "ganesh$kumar"; 
 
 // console.log(username.charAt(2));
 // console.log(username.indexOf("a"));
@@ -365,11 +367,64 @@ let username = "ganesh$kumar";
 // address name = gmail
 
 
+// without method chaining
+
+// let username = window.prompt("Enter the username: ");
+
+// username = username.trim();
+
+// let letter = username.charAt(0);
+
+// letter = letter.toUpperCase();
+
+// let extraChars = username.slice(1);
+
+// extraChars = extraChars.toLowerCase();
+
+// username = letter + extraChars;
+
+// console.log(username);
 
 
+// with method chaining 
+
+// let username = window.prompt("Enter the username: ");
+
+// username = username.trim().charAt(0).toUpperCase() + username.trim().slice(1).toLowerCase();
 
 
+// console.log(username);
 
 
+// const temp = 10;
+
+// if(temp <= 0 || temp > 30) {
+//    console.log("Weather is bad");
+// } else {
+//      console.log("Weather is good");
+// }
+
+// const isSunny = false;
+
+// if(!isSunny) {
+//     console.log("It is heat outside");
+// } else {
+//     console.log("It is cloudy outside");
+// }
 
 
+// const PI = 3.14;
+
+// if(PI === 3.14) {
+//     console.log("This is PI");
+// } else {
+//     console.log("Not PI");
+// }
+
+
+// let username = "";
+
+// while(username === "" || username === null) {
+//     username = window.prompt("Enter your name ");
+// } 
+// console.log(`hello ${username}`);
