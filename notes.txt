@@ -263,7 +263,33 @@ Variable Scope - where a variable is recogonized and acceessible (local vs globa
 
 Common DS in all the pro lang
 
-Arrays - varaible like structure that can hold more than 1 values 
+Arrays - varaible like structure that can hold more than 1 values  - Based on index
+
+Spread operator - ... allows us to iterate such as array or string to expanded into a seperate elements (unpacks the elements)
+
+Rest Parameters - (...rest) - allow a function work with varaiable number of argumantes by bundling them into an array
+spread - expands an array into sepeate elements
+rest - bundle sperate elements into an array 
+
+
+function func1(Parameters) {
+
+}
+
+func1(arguments);
+
+
+Callbacks - a function that is passed as an argument to another function 
+
+
+used to handle asynshronous operation 
+
+Reading the file 
+Network requests 
+interacting with Database 
+api calling 
+
+"Hey, when you done, call this next"
 
 
 

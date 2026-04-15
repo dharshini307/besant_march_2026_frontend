@@ -512,3 +512,155 @@ let students = 30;
 // func2();
 
 
+
+//             0          1          2       length = 4, 0 to 3
+// let fruits = ["apple", "orange", "banana", "mango"];
+
+// for(let i = fruits.length - 1; i >= 0; i--) {
+//    console.log(fruits[i]);
+// }
+
+// fruits.sort().reverse();
+
+// for(let fruit of fruits) {
+//     console.log(fruit);
+// }
+
+// fruits[2] = "pineapple";
+
+// fruits.push("pineapple");
+// fruits.pop("pineapple");
+// fruits.unshift("pineapple");
+// fruits.shift();
+
+// let numOfFruits = fruits.length;
+// let index = fruits.indexOf("apple");
+
+// console.log(fruits[0]);
+// console.log(fruits[1]);
+// console.log(fruits[2]);
+// console.log(fruits[3]);
+// console.log(numOfFruits);
+
+// console.log(index);
+
+
+// let numbers = [1, 2, 3, 4, 5];
+
+// let maximum = Math.max(...numbers);
+
+// console.log(numbers);
+
+// console.log(maximum);
+
+// let username = "ganesh kumar";
+
+// console.log(username);
+
+// letters = [...username].join("-")
+
+// console.log(letters);
+
+// let fruits = ["apple", "orange", "banana", "mango"];
+ 
+// different data structure but idenetical values - shallow copy 
+
+// let veggies = ["carrots", "potatos", "onion"];
+
+// let foods = [...fruits, ...veggies, "eggs", "milks"];
+
+// console.log(foods);
+
+
+// function openFridge(...foods) {
+//    console.log(...foods);
+// } 
+// const food1 = "tomato rice";
+// const food2 = "veg rice";
+// const food3 = "egg rice";
+// const food4 = "veg briyani";
+// const food5 = "non veg briyani";
+
+
+// openFridge(food1, food2, food3, food4, food5);
+
+// function sum(...numbers) {
+//     let result = 0;
+//     for(let number of numbers) {
+//         result += number;
+//     }
+
+//     return result;
+// }
+
+// const total = sum(2,34,5,566,43,22,3,44,44);
+
+// console.log(`the total is ${total}`);
+
+
+
+
+// function getAverage(...numbers) {
+//       let result = 0;
+//       for(let number of numbers) {
+//          result += number;
+//       }
+
+//      return result / numbers.length;
+// }
+
+
+// const total = getAverage(75, 78, 90, 99);
+// console.log(`the total is ${total}`);
+
+// function combineStrings(...strings) {
+//      return strings.join(" ")
+// }
+
+// const fullName = combineStrings("Mr", "Ganesh", "Kumar", "101");
+
+// console.log(`the fullname with emp id ${fullName}`);
+
+
+
+// helloStudents(waitStudents);
+
+
+// function helloStudents(callback) {
+//     console.log("Hello Students");
+//     callback();
+// }
+
+// function leaveStudents() {
+//     console.log("Students leave the class");
+// }
+
+// function waitStudents() {
+//      console.log("Students wait");
+// }
+
+
+// function goodbyeStudents() {
+//     console.log("Goodbye!! Students");
+// }
+
+
+//      
+sum(displayInWebPage, 2, 3);
+
+// 1st it be call
+function sum(callback, x, y) {
+   let result = x + y;
+   callback(result);
+}
+
+function displayResultToMyConsole(result) {
+    console.log(result);
+}
+
+function displayInWebPage(result) {
+       document.getElementById("myH1").textContent = `the result is ${result}`;
+}
+
+
+
