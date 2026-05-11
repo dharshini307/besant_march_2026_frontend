@@ -1451,8 +1451,159 @@
 
 // func1(func2);
 
-console.lag("Hello");
+// console.lag("Hello");
 
-console.log("You have reached the end of the code");
+// console.log("You have reached the end of the code");
+
+
+// try {
+
+//     const dividend = Number(window.prompt("Enter a dividend"));
+//     const divisor = Number(window.prompt("Enter a divisor"));
+
+//     if(divisor == 0) {   
+//         throw new Error("You cannot divide by 0");
+//     } if(isNaN(dividend) || isNaN(divisor)) {
+//         throw new Error("Values must be an number");
+//     }
+
+// const result = dividend / divisor;
+
+// console.log(result);
+
+    
+// } catch (error) {
+//      console.error(error);
+       
+// }
+
+
+// console.log("You have reached the end");
+
+// document.title = "Besant";
+
+// document.body.style.backgroundColor = "black";
+
+// console.dir(document);
+
+// const username = "";
+
+// const welcomeMsg = document.getElementById("welcome");
+
+// welcomeMsg.textContent += username === "" ? `Guest` : username;
+
+// const myHeading = document.getElementById("headin");
+// console.log(myHeading);
+
+// myHeading.style.color = "red";
+// myHeading.style.textAlign = "center";
+
+// const vegetables = document.getElementsByClassName("veggies");
+
+// for(let veggies of vegetables) {
+//     veggies.style.color = "blue";
+// }
+
+// console.log(vegetables);
+
+
+// const h4Elements = document.getElementsByTagName("h4");
+
+// for(let h4Element of h4Elements) {
+//     h4Element.style.color = "red";
+// }
+
+// console.log(h4Elements);
+
+// const element = document.querySelector("ul");
+
+// console.log(element);
+
+
+// element.style.color = "red";
+
+// const foods = document.querySelectorAll(".veggies");
+
+
+// foods.forEach(food => {
+//     food.style.color = "red";
+// })
+
+// console.log(foods);
+
+
+const myBox = document.getElementById("myBox");
+
+// function changeColor(event) {
+// //    console.log(event);
+
+//    event.target.style.backgroundColor = "green";
+//    event.target.textContent = "opps";
+
+// }
+
+// myBox.addEventListener("click", changeColor);
+// myBox.addEventListener("click", function changeColor(event) {
+//    event.target.style.backgroundColor = "green";
+//    event.target.textContent = "opps";
+
+// });
+
+// myBox.addEventListener("mouseover", event => {
+//        event.target.style.backgroundColor = "yellow";
+//    event.target.textContent = "dont do it";
+// })
+// myBox.addEventListener("mouseout", event => {
+//        event.target.style.backgroundColor = "green";
+//    event.target.textContent = "opps";
+// })
+
+
+
+
+function task1(callback) {
+    setTimeout(() => {
+      console.log("task 1 is competed");
+      callback();
+    }, 2000)
+
+}
+function task2(callback) {
+    setTimeout(() => {
+      console.log("task 2 is competed");
+      callback()
+    }, 1000)
+}
+function task3(callback) {
+    setTimeout(() => {
+      console.log("task 3 is competed");
+      callback()
+    }, 3000)
+}
+function task4(callback) {
+  setTimeout(() => {
+      console.log("task 4 is competed");
+      callback()
+    }, 1500)
+}
+
+
+
+
+// task1();
+// task2();
+// task3();
+// task4();
+// console.log("all task are completed");
+
+// task1(() => {
+//     task2(() => {
+//         task3(() => {
+//             task4(() => {
+//                 console.log("All task are finsihed");
+//             })
+//         })
+//     })
+// })
 
 

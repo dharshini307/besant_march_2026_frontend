@@ -560,7 +560,66 @@ asynchronous - allows multiple operation to be performed concurrently without wa
 
 Handled with : callback, promises, asyn/await
 
-Error handling - an object that is created to represent a problem that occurs ofter, with user input or establishing a connection 
+Error handling - an object that is created to represent a problem that occurs often, with user input or establishing a connection
+
+
+try {} - encloses the code that might potential cause an error 
+
+catch{} - catch and handle any thrown errors from try { }
+
+finally { } - {optional} always execution, used mostly for clean up , example :- close file, close connection, etc 
+
+
+
+DOM - Document Object Model - Object{} which represent the page we see in the web browser and provides us with an API to interact with it.
+
+Web browser constructs the dom when it loads the HTML document and structure all the elements in a tree-like structure.
+
+javascript can access the DOM to dynamically 
+change the content, structure and style of the web page
+
+element slectors - methods used t target and manipulate html elements they allow to slect one or multilple html elements from the dom 
+
+1. doucment.getElementById()      // element or null
+2. document.getElementByClassName() // HTML collection
+3. document.getElementByTagName() // HTML collection
+4. doucment.querySelector() // First matching Element or null
+5. doucment.querySelectorAll()   // Nodelist
+
+
+// evenListener - listen for specific events to create interactive web pages 
+events: click, mouseover, mouseout
+
+.addEventListener(event, callback);
+
+callback hell: situation in javscript where callbacks are nested within onther callback to the degree where the code is difficult to reaf. 
+
+old pattern to handle asynchronous functions 
+
+use promises + asyn./await to avoid callback hell
+
+
+Promises - an object that manges asynchronous operations
+
+wrap a Promises object aroud (asynchronous code)
+
+"I promise to reaturn value"
+
+PENDING ---> RESOLVED OR REJECTED
+
+
+new Promise((resolve, reject) => {asynchronous code}) 
+
+
+Do these things in order
+
+
+1. walk th dog  4
+2. Clean the house 10 
+3. Take the trash out 2
+
+
+
 
 
 
