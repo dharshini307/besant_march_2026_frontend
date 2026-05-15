@@ -1677,3 +1677,87 @@ const myBox = document.getElementById("myBox");
 //   })
 // })
 
+
+
+// const employeeNames = `[ "ganesh", "kumar", "siva", "john"]`;
+// const person = `{
+//     "name": "ganesh",
+//     "age": "22",
+//     "isStudent": true,
+//     "hobbies": ["football", "reading", "cooking"]
+// }`
+
+// const peoples = `[
+    
+//     {
+//      "name": "ganesh",
+//     "age": "22",
+//     "isStudent": true
+//     } , 
+
+//     {
+//     "name": "kumar",
+//     "age": "25",
+//     "isStudent": false
+//     }
+
+// ]`;
+
+// console.log(employeeNames);
+// console.log(person);
+// console.log(peoples);
+
+// const jsonString = JSON.stringify(employeeNames);
+// const jsonString = JSON.stringify(peoples);
+// console.log(jsonString);
+
+// const parsedData = JSON.parse(employeeNames);
+
+// console.log(parsedData);
+
+
+// fetch("https://pokeapi.co/api/v2/pokemon/pikachu")
+//        .then(response => {
+//         if(!response.ok) {
+//             throw new Error("Could not fetch the data")
+//         } return response.json();
+//        })
+//        .then(data => console.log(data.id))
+//        .catch(error => console.error(error));
+
+
+// fetchData();
+
+// async function fetchData() {
+//     try {
+//         const response = await  fetch("https://pokeapi.co/api/v2/pokemon/pikachu")
+//         if(!response.ok) {
+//             throw new Error("Could not fetch the data");
+//         } 
+//         const data = await response.json();
+//         console.log(data);
+//     } catch (error) {
+//         console.error(error)
+//     }
+// }
+
+fetchData();
+
+async function fetchData() {
+  try {
+    const pokemonName = document.getElementById("pokemonName").value.toLowerCase();
+    const response = await fetch(`https://pokeapi.co/api/v2/pokemon/${pokemonName}`);
+    if(!response.ok) {
+      throw new Error("Could not fetch the data from this api or link");
+    }
+    const data = await response.json();
+
+    // const pokemonSprite = data.sprites.front_default;
+    // const imgElement = document.getElementById("pokemonSprite");
+    // imgElement.src = pokemonSprite;
+    // imgElement.style.display = "block";
+    console.log(data);
+  } catch (error) {
+    console.error(error);
+  }
+}

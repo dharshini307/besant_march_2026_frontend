@@ -640,10 +640,25 @@ JSON.stringify() = converts a js object to jason String
 JSON.parse() = converts JSON string to js Object
 
 
+Fetch - Function used for making HTTP requests to fetch the data or resourse (JSON style data, image, files, videos)
+
+// simpifies asynshrounous data fetching in js and used to interact with APIs to retrive and send data ayshroumous over the imter or web 
+
+fetch(url, {options or object});
+fetch(url, {method : POST});
+
+API - HTTP MEthods - POST, GET, PUT, DELETE
+
+Bootstarp - It is frontend UI framework to design interactive designs without writing the css explicitly.
 
 
+Containers - fixedwidth and fullwidth
+Typograpghy 
+colour class - text, background 
+row and coloumn classes - Container - full and fixed
 
 
+create simple blog website using bootstrap classes
 
 
 
